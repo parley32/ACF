@@ -1,0 +1,55 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <div class="logo-image">
+            <img src="../../assets/Images/Logo-full.png" class="img-fluid">
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a routerLink="/about-us" class="nav-link" aria-current="page" href="#">Quem Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">O Que Fazemos</a>
+          </li>
+          <li ngbDropdown class="nav-item dropdown">
+            <a ngbDropdownToggle class="nav-link dropdown-toggle active" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Apoio</a>
+            <ul ngbDropdownMenu class="dropdown-menu" aria-labelledby="dropdown01">
+                <li><a class="dropdown-item" href="#">Contactos</a></li>
+                <li><a class="dropdown-item" href="#">Templates</a></li>
+                <li><a class="dropdown-item" href="#">Links úteis</a></li>
+            </ul>
+          </li>
+          <li ngbDropdown class="nav-item dropdown">
+            <a ngbDropdownToggle class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Projectos</a>
+            <ul ngbDropdownMenu class="dropdown-menu" aria-labelledby="dropdown01">
+                <li><a class="dropdown-item" href="#">Project Adamantine</a></li>
+                <li><a class="dropdown-item" href="#">Project Limestone</a></li>
+                <li><a class="dropdown-item" href="#">Project Gobinite</a></li>
+            </ul>
+          </li>
+          <li ngbDropdown class="nav-item dropdown">
+            <a ngbDropdownToggle class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Publicações</a>
+            <ul ngbDropdownMenu class="dropdown-menu" aria-labelledby="dropdown01">
+              <li><a class="dropdown-item" href="#">Relatórios</a></li>
+              <li><a class="dropdown-item" href="#">Dados</a></li>
+              <li><a class="dropdown-item" href="#">Legislação</a></li>
+              <li><a class="dropdown-item" href="#">Jurisprudência</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Eventos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>

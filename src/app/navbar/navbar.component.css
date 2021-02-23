@@ -1,0 +1,50 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+/* #fd96a9 PINK*/
+/* #fdc49b ORANGE PINKISH*/
+
+body {
+    margin: 0px !important;
+}
+
+.navbar {
+    background-color: #e7bbb2 !important;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    /* font-weight: bold; */
+    font-size: 32px;
+    border-bottom: 3px solid grey ;
+}
+
+.logo-image {
+    width: 200px;
+    /* border-radius: 50%; */
+    overflow: hidden;
+    /* margin-top: -6px; */
+}
+
+.nav-link {
+    color: black !important;
+}
+.nav-link:hover {
+    color: #d76f5b !important;
+}
+
+.nav-link.active {
+    color: #d76f5b!important;
+}
+
+.dropdown-menu {
+    background-color: #e7bbb2 !important;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #d76f5b !important;
+}
+
+.dropdown-item {
+    color: black !important;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}

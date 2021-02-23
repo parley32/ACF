@@ -1,0 +1,41 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+body {
+    margin: 0px !important;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container-fluid {
+    background-image: url("../../assets/Images/overlay_diagonal_light.png") !important;
+    background-repeat: repeat !important;   
+}
+
+.wrapper {
+    /* background-color: white; */
+    padding-top: 250px;
+    max-height: 100vh;
+}
+
+.full-height {
+    height: 60vh;
+}
+
+.bordered {
+    text-align: center;
+    padding: 10px;
+    border-top: 4px solid grey;
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+    color: black !important;
+    text-transform: uppercase;
+}
+p {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: black !important;
+}
